@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No Wet Dogs — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 2.5rem 1.25rem 5rem; max-width: 42rem;
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #edeae4; background: #0b0f14; }
+    a { color: #6aa6d9; }
+    .lede { color: #b9b5ad !important; }
+    dt { color: #edeae4; }
+    .card { background: #131a22 !important; }
+  }
+  h1 { font-size: 2.1rem; letter-spacing: -0.03em; margin: 0 0 0.4rem; }
+  .lede { font-size: 1.15rem; color: #4b5563; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.15rem; margin: 2.5rem 0 0.8rem; letter-spacing: -0.01em; }
+  dt { font-weight: 600; margin: 1.4rem 0 0.3rem; }
+  dd { margin: 0; }
+  .card { background: #f4f4f5; padding: 1.1rem 1.2rem; border-radius: 10px; margin: 1.5rem 0; }
+  footer { margin-top: 3.5rem; font-size: 0.9rem; color: #6b7280; }
+</style>
+</head>
+<body>
+
+<h1>No Wet Dogs</h1>
+<p class="lede">Tells you before a walk gets rained on — and when to go instead.</p>
+
+<h2>How it works</h2>
+<p>Enter your weekly walking schedule. The app checks the forecast against it
+and sends you a notification ahead of any walk that's going to be rained on,
+too hot underfoot, or snowy and icy — with a better time to go.</p>
+
+<h2>Common questions</h2>
+
+<dl>
+  <dt>Do I have to share my location?</dt>
+  <dd>No. You can type a ZIP code instead. If you do share it, the app rounds
+  the coordinate to about a one-kilometer square before asking for a forecast,
+  and never tracks where you go.</dd>
+
+  <dt>Why didn't I get an alert?</dt>
+  <dd>Check that notifications are allowed in Settings → No Wet Dogs, and that
+  the walk is inside the hours you set. The app only warns when the chance of
+  rain crosses the threshold you chose — raise or lower it in the app's
+  settings.</dd>
+
+  <dt>What does the pavement temperature mean?</dt>
+  <dd>It's an <em>estimate</em>, not a measurement — no weather service reports
+  what asphalt is doing. It's computed from air temperature and how much sun is
+  reaching the ground, and it deliberately errs toward the hotter end. The
+  seven-second hand test is still the real check: hold the back of your hand on
+  the pavement, and if you have to lift it, it's too hot for paws.</dd>
+
+  <dt>Why is the forecast slightly different from other weather apps?</dt>
+  <dd>The app shows the chance of rain during your walk specifically, not the
+  whole day, so it will often differ from a daily summary.</dd>
+
+  <dt>Does it work offline?</dt>
+  <dd>It shows the last forecast it managed to fetch, marked <em>stale</em>. Once
+  a reading is too old to stand behind, the app stops warning rather than
+  guessing, and says so.</dd>
+
+  <dt>Is there an Android version?</dt>
+  <dd>No.</dd>
+</dl>
+
+<div class="card">
+  <strong>Something wrong, or an idea?</strong><br>
+  <a href="https://github.com/Mach0ManRandySavage/nowetdogs-site/issues">Open an issue on GitHub</a>. If
+  you're reporting a bug, your iOS version and what the screen said will help.
+</div>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a><br><br>
+  Weather data provided by Apple Weather.
+</footer>
+
+</body>
+</html>
