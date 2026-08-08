@@ -7,3 +7,7 @@ GitHub Pages. Two static files, no build step, no dependencies.
 - `privacy.html` — privacy policy (App Store Connect "Privacy Policy URL")
 
 The app's source is not in this repository.
+
+This is the only copy. A second one lived at `NoWetDogs/docs/` in the app repo
+and drifted — the published privacy policy went months without the calendar
+section the app's permission required. Edit the pages here, and nowhere else.
